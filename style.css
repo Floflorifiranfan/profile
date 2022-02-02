@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body {
   font-family: 'Yellowtail';
-  background-color: #B68742;
+  background-color: #EFDFC0;
 }
 
 h1 {
@@ -16,7 +16,7 @@ p{
 }
 
 h1, h2 {
-color : #D9BB2C;
+color : #EFDFC0;
 line-height: 35px;
 }
 
@@ -28,10 +28,6 @@ img {
 a {
   text-decoration: none;
 }
-a:hover {
-  color: white;
-  background-color: #36D697 ;
-}
 .card-white {
   background-color: white;
   padding: 40px;
@@ -42,10 +38,14 @@ a:hover {
 }
 
 .btn-blue {
-  background-color: #3254A8;
+  background-color: #899FF0;
   color: white;
   padding: 15px 20px;
   border-radius: 5px;
+}
+
+.btn-blue:hover{
+  background-color: #36D697;
 }
 .container {
   width: 500px;
@@ -62,7 +62,7 @@ div {
   display: inline;
   font-size: 60px;
   border-radius: 4px;
-  color: #3254A8;
+  color: #899FF0;
 }
 ul {
   display:block;
@@ -89,3 +89,13 @@ ul {
     width: 300px;
   }
 }
+.card-white a {
+  color: #899FF0;
+}
+.card-white a:hover {
+  color: #36D697;
+}
+ .card-white .btn-blue,
+ .card-white .btn-blue:hover {
+   color: white;
+ }
