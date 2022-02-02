@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+body {
+  font-family: 'Yellowtail';
+  background-color: #B68742;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+h1, h2 {
+color : #D9BB2C;
+line-height: 35px;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: #36D697 ;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #3254A8;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+div {
+  display: block;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li{
+  display: inline;
+  font-size: 60px;
+  border-radius: 4px;
+  color: #3254A8;
+}
+ul {
+  display:block;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
